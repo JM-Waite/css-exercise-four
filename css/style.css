@@ -13,12 +13,12 @@ body {
   width: 90%;
 }
 
-div {
+.preview {
   background-color: #dadada;
   float: left;
   margin: 1% 0;
-  width: 100%;
-  padding: 20px 25px;
+  width: 90%;
+  padding: 25px 25px;
 }
 
 h1 {
@@ -28,7 +28,7 @@ h1 {
 
 img {
   width: 100%;
-  display: block;
+  display: inline-block;
 }
 
 
@@ -42,10 +42,10 @@ img {
     width: 25%;
   }
 
-  div {
+  .preview {
     margin: 1% 0;
-    width: 100%;
-    float: none;
+    width: 40%;
+    float: left;
   }
 
   h1 {
@@ -65,7 +65,7 @@ img {
     float: left;
   }
 
-  div {
+  .preview {
     margin: 1% 0;
     width: 25%;
     float: left;
@@ -81,30 +81,7 @@ img {
 
 
 
-/***
-@media screen and (max-width: 500px) {
-  body { //smartphone
-    font-size: 12px;
-  }
-
-  .container {
-    margin: 20px auto;
-    width: 90%;
-  }
-
-  div {
-    margin: 1%;
-    width: 48%;
-    float: none;
-  }
-
-  h1 {
-    font-size: 2.5em;
-    margin: 0;
-  }
-}
-
-
+/*
 <section class="container">
   <h1>Modern luxury <span class="emphasis">travel</span></h1>
   <div class="preview baku">
@@ -120,3 +97,4 @@ img {
     <h1>Rome</h1>
   </div>
 </section>
+*/
