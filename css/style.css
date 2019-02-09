@@ -43,7 +43,7 @@ img {
 
   .preview {
     margin: 1% 0;
-    width: 60%;
+    width: 48%;
     float: left;
   }
 
@@ -53,7 +53,7 @@ img {
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1200px) {
+@media screen and (min-width: 769px) and (max-width: 1600px) {
   body { /* laptop */
     font-size: 16px;
   }
@@ -65,7 +65,7 @@ img {
 
   .preview {
     margin: 1% 0;
-    width: 60%;
+    width: 24%;
     float: left;
   }
 
