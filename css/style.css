@@ -10,7 +10,6 @@ body {
 
 .container {
   margin: 20px auto;
-  width: 90%;
 }
 
 .preview {
@@ -32,19 +31,19 @@ img {
 }
 
 
-@media screen and (min-width 501px) and (max-width: 768px) {
+@media screen and (min-width: 501px) and (max-width: 768px) {
   body { /* tablet */
     font-size: 16px;
   }
 
   .container {
     margin: 20px auto;
-    width: 25%;
+    float: left;
   }
 
   .preview {
     margin: 1% 0;
-    width: 40%;
+    width: 60%;
     float: left;
   }
 
@@ -54,20 +53,19 @@ img {
   }
 }
 
-@media screen and (min-width 769px) and (max-width: px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
   body { /* laptop */
     font-size: 16px;
   }
 
   .container {
     margin: 20px auto;
-    width: 25%;
     float: left;
   }
 
   .preview {
     margin: 1% 0;
-    width: 25%;
+    width: 60%;
     float: left;
   }
 
