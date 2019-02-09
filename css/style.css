@@ -18,6 +18,7 @@ body {
   margin: 1% 0;
   width: 90%;
   padding: 25px 25px;
+  max-height: 270px;
 }
 
 h1 {
@@ -45,6 +46,7 @@ img {
     margin: 1% 0;
     width: 48%;
     float: left;
+    max-height: 190px;
   }
 
   h1 {
