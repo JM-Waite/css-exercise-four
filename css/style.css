@@ -18,7 +18,27 @@ body {
   margin: 1% 0;
   width: 90%;
   padding: 25px 25px;
-  max-height: 270px;
+  max-height: 300px;
+}
+
+.baku {
+  background-image: url(/images/baku.jpg);
+  background-size: cover;
+}
+
+.london {
+  background-image: url(/images/london.png);
+  background-size: cover;
+}
+
+.madrid {
+  background-image: url(/images/madrid.jpg);
+  background-size: cover;
+}
+
+.rome {
+  background-image: url(/images/rome.jpg);
+  background-size: cover;
 }
 
 h1 {
@@ -28,6 +48,7 @@ h1 {
 
 img {
   width: 100%;
+  margin: 20px auto;
   display: inline-block;
 }
 
