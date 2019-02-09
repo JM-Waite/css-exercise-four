@@ -10,6 +10,11 @@ body {
 
 .container {
   margin: 20px auto;
+  width: 100%;
+}
+
+div {
+  width: 100%;
 }
 
 .preview {
@@ -22,23 +27,27 @@ body {
 }
 
 .baku {
-  background-image: url(/images/baku.jpg);
+  background-image: url('../images/baku.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 .london {
-  background-image: url(/images/london.png);
+  background-image: url('../images/london.png');
   background-size: cover;
+  background-position: center;
 }
 
 .madrid {
-  background-image: url(/images/madrid.jpg);
+  background-image: url('../images/madrid.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 .rome {
-  background-image: url(/images/rome.jpg);
+  background-image: url('../images/rome.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 h1 {
