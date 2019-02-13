@@ -20,10 +20,10 @@ div {
 .preview {
   background-color: #dadada;
   float: left;
-  margin: 1% 0;
+  margin: 1%;
   width: 90%;
   padding: 25px 25px;
-  max-height: 300px;
+  height: 250px;
 }
 
 .baku {
@@ -68,10 +68,10 @@ h1 {
   }
 
   .preview {
-    margin: 1% 0;
+    margin: 1%;
     width: 48%;
     float: left;
-    max-height: 190px;
+    height: 200px;
   }
 
   h1 {
@@ -91,9 +91,10 @@ h1 {
   }
 
   .preview {
-    margin: 1% 0;
-    width: 24%;
+    margin: 1%;
+    width: 23%;
     float: left;
+    height: 200px;
   }
 
   h1 {
